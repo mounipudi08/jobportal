@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+nav {
+  background-color: #6f42c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  padding: 0 1rem;
+}
+
+nav .title {
+   position: absolute; /* Absolute positioning for the title */
+   top: 0; /* Align to the top of the navbar */
+   left: 0; /* Align to the left of the navbar */
+   font-size: 2.75rem;
+   font-weight: bold;
+   text-decoration: none;
+   color: white; /* Text color */
+   border: none;
+   border-radius: 0;
+   /* background-color: #ebebed;  */
+   padding: 0.5rem 1rem;
+   border-radius: 0; /* No rounded corners */
+   transition: background-color 0.3s ease, color 0.3s ease;
+   font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    background: #ffff;
+    margin: 0 auto;
+    padding: 20px; /* Add padding to the container if needed */
+}
+
+.cont > .row {
+     width: 90%;
+     margin: 0 auto;
+    padding: 20px 0; /* Increase row height with padding */
+    min-height: 100px; /* Ensure a minimum height for each row */
+    background-color: #f0f0f0; /* Background color for each row */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blueviolet;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color:  #4e3299 ; /* White text color for visibility */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: white; /* Background color */
+  border-radius: 0.25rem; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 1rem; /* Spacing between buttons */
+}
+
+.nav-link:hover {
+  background-color: #3b2376; /* Darker background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.nav-link + .nav-link {
+  margin-left: 2rem;
+}
+
+.profile-icon {
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+}
+

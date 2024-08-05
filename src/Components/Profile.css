@@ -1,0 +1,9 @@
+.co{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
+    background: #ffff;
+    padding-bottom: 20px;
+}
